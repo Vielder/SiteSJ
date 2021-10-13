@@ -1,1 +1,78 @@
+.center{
+	margin: auto;
+}
 
+body{
+	background-color: #1f1f1f;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+table, th, td{
+	border: 1px solid white;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+th{
+	padding: 4px;
+}
+
+td{
+	text-align: center;
+}
+
+
+a{
+	display: block;
+	text-align: center;
+}
+
+.float{
+	display: block;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	background-color: #303030;
+	width: 130px;
+	border: 1px solid orange;
+
+}
+
+.page{
+	width: 70%;
+	margin: auto;
+	background-color: #303030;
+	padding: 10px;
+	border-left: 1px solid orange;
+	border-right: 1px solid orange;
+	border-bottom: 1px solid orange;
+	margin-bottom: 400px;
+}
+
+.lorum{
+	width: 95%;
+	height: 350px;
+	overflow-y: scroll;
+	border: 1px solid white;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pngn{
+	margin: auto;
+	display: block;
+
+}
+
+.hidden{
+	width: 100%;
+	margin: auto;
+	display: block;
+	z-index: -1;
+	position: fixed;
+	bottom: 10px;
+
+}
